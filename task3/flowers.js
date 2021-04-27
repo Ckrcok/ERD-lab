@@ -2,8 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const flowerSchema = new Schema({
-  username: String,
-  flowername: String
+  flowerName: String
 });
 
 module.exports = mongoose.model("Flower", flowerSchema);
